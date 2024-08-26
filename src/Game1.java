@@ -16,7 +16,6 @@ public class Game1 {
             int num1= rand.nextInt(10)+1;
              list.add(num1);
         }
-
         int sum=0;
         for(int i=0; i<list.size(); i++) {
             sum+=list.get(i);
